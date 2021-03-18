@@ -1,0 +1,54 @@
+*{
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-color: #226DDE;
+  min-height: 297mm;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.author{
+  padding-top: 20px;
+  font-weight: 200;
+  font-size: 20pt;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+h1{
+  font-size: 34pt;
+  font-weight: 200;
+  letter-spacing: 2pt;
+}
+
+.big_header{
+  font-weight: 900;
+  font-size: 70pt;
+  line-height: 80pt;
+  letter-spacing: 3pt;
+}
+
+.small_header{
+  font-weight: 100;
+  font-size: 20pt;
+  margin-top: 10px;
+  letter-spacing: 2pt;
+}
+
+a{
+  font-weight: 100;
+  font-size: 12pt;
+  letter-spacing: 2pt;
+  text-decoration: none;
+  margin: auto 0 20px 0;
+}

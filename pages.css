@@ -1,0 +1,64 @@
+*{
+  color: white;
+}
+
+body{
+  min-height: 297mm;
+}
+
+header{
+  background-color: #226DDE;
+  padding: 20pt 30pt;
+}
+
+h1{
+  font-size: 16pt;
+  letter-spacing: 0.5pt;
+  font-weight: 200;
+}
+
+.page{
+  font-size: 10pt;
+  font-weight: 100;
+  letter-spacing: 1pt;
+  opacity: 0.7;
+  margin-top: 12pt;
+}
+
+h2{
+  font-size: 18pt;
+  letter-spacing: 1pt;
+  font-weight: 800;
+  margin-top: 4pt;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 40pt 80pt 0 80pt;
+  background-image: url('bg.png');
+  background-repeat: repeat;
+}
+
+.message{
+  font-size: 13pt;
+  font-weight: 200;
+  line-height: 18pt;
+  letter-spacing: 1pt;
+  padding: 10px 20px;
+  max-width: 80%;
+  margin: 10pt 0;
+}
+
+.message_left{
+  background-color: #226DDE;
+  border-radius: 30px 30px 30px 0;
+}
+
+.message_right{
+  background-color: green;
+  border-radius: 30px 30px 0 30px;
+  align-self: flex-end;
+}
